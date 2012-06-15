@@ -1,0 +1,1 @@
+This project is the combination of CodeIgniter and the html5 BoilerPlate.
