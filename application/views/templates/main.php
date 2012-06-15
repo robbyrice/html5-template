@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<base href="<?php echo base_url(); ?>">
 
-	<title><?php if(isset($title) echo $title.' | '. config_item('site_name')); ?></title>
+	<title><?php if(isset($title)) echo $title.' | '; echo config_item('site_name'); ?></title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width">
 
