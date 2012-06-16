@@ -37,7 +37,6 @@
 	<script src="js/main.js"></script>
 	<!-- end scripts -->
 </body>
-</html>
-<?php
+</html><?php
 /* End of file main.php */
 /* Location: ./application/views/templates/main.php */
