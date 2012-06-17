@@ -18,7 +18,6 @@
 | Shouldn't really be too long because it will appear in the title
 | of most of the pages of the site.
 |
-|
 */
 $config['site_name'] = '';
 
@@ -34,5 +33,5 @@ $config['version'] = '0.1';
 
 
 
-# End of file project.php
-# Location: ./application/config/project.php
+/* End of file project.php */
+/* Location: ./application/config/project.php */
