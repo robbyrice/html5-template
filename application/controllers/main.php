@@ -5,7 +5,7 @@ class Main extends CI_Controller {
 	public function index()
 	{
 		$data = array(
-			'title'	=>	'Main',
+			'title'	=>	'',
 			'view'	=>	'main'
 		);
 
