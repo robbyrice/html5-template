@@ -6,7 +6,7 @@ class Main extends CI_Controller {
 	{
 		$data = array(
 			'title'	=>	'',
-			'view'	=>	'main'
+			'view'	=>	''
 		);
 
 		$this->load->view('templates/main', $data);
