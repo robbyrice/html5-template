@@ -4,12 +4,8 @@ class Main extends CI_Controller {
 
 	public function index()
 	{
-		$data = array(
-			'title'	=>	'',
-			'view'	=>	''
-		);
 
-		$this->load->view('templates/main', $data);
+		$this->load->view('templates/main');
 	}
 }
 
