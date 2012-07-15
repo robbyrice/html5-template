@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<base href="<?php echo base_url(); ?>">
 
-	<title><?php if(isset($title) && $title !== '') echo $title.' | '; echo config_item('site_name'); ?></title>
+	<title><?php if(isset($title) && trim($title) !== '') echo $title.' | '; echo config_item('site_name'); ?></title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width">
 
@@ -23,7 +23,7 @@
 
 	</header>
 	<div role="main">
-<?php if(isset($view) && $view !== '') $this->load->view($view.'_view'); ?>
+<?php if(isset($view) && trim($view) !== '') $this->load->view($view.'_view'); ?>
 	</div>
 	<footer>
 
